@@ -18,7 +18,7 @@ AWS_DEFAULT_REGION_VAR="${AWS_DEFAULT_REGION:-eu-central-1}"
 AWS_DEFAULT_OUTPUT="json"
 
 # Feste Auswahl für diesen Pod (Ihre Anforderung)
-S3_SRC="s3://vh-core/Gen/"
+S3_SRC="s3://vh-core/GenV02/"
 TARGET_DIR="/root/framework/gen"
 START_SCRIPT_PATH="${TARGET_DIR}/start.sh"
 
